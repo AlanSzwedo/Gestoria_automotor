@@ -1,3 +1,18 @@
-h1 {
-    color: red;
+@import "base/variables";
+@import "inicio";
+@import "navbar";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body {
+    width: 99vw;
+    overflow-x: hidden;
+    min-height:100vh; 
+    margin:0; 
+    position:relative;
 }

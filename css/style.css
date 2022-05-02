@@ -1,2 +1,47 @@
-h1 {
-  color: red; }
+@charset "UTF-8";
+/* Boton whatsapp */
+aside .botonWhatsApp a img {
+  width: 70px;
+  position: fixed;
+  z-index: 4;
+  bottom: 10px;
+  right: 10px; }
+
+/* PRESENTACIÓN */
+section .intro {
+  display: flex; }
+  section .intro .auto_principal {
+    height: 28rem; }
+  section .intro div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(155, 29, 7, 0.806);
+    color: white; }
+    section .intro div p {
+      padding: 3rem; }
+
+/* SERVICIOS */
+section h1 {
+  display: flex;
+  justify-content: center;
+  padding: 4rem; }
+
+/* CONSULTAS FRECUENTES */
+article h3 {
+  display: flex;
+  justify-content: center;
+  padding: 4rem; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Body */
+body {
+  width: 99vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+  margin: 0;
+  position: relative; }
