@@ -31,7 +31,7 @@
 
 
     <!-- SUB NAVBAR -->
-    <nav class="nav nav-pills flex-column flex-sm-row">
+    <nav class="nav nav-pills flex-column flex-sm-row nav_fijo">
         <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Inicio</a>
         <a class="flex-sm-fill text-sm-center nav-link" href="pages/cotizacion.html">Cotizá tu trámite</a>
         <a class="flex-sm-fill text-sm-center nav-link" href="pages/contacto.html">Contacto</a>
@@ -39,12 +39,12 @@
 
     <section>
         <div class="intro">
-            <img src="imagenes/auto.jpg" alt="" class="auto_principal">
+            <img src="imagenes/escritorio.jpg" alt="" class="escritorio_principal">
             <div>
                 <h3>Gestoría integral del Automotor</h3>
                 <p>Gestoría para motos y autos. Te damos el mejor servicio y asesoramiento, en seguros y gestoria automotor.</p>
             </div>
-        </div>
+        </div>  
     </section>
 
     <!-- SECTION -->
@@ -102,37 +102,25 @@
     <article>
         <h3>Consultas frecuentes</h3>
 
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Accordion Item #1
-            </button>
-            </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-            </div>
+      <div class="consultas">
+        <div id="list-example" class="list-group">
+          <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              Accordion Item #2
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-          </div>
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+          <h4 id="list-item-1">Item 1</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, debitis? Optio, corrupti excepturi a cupiditate officia ullam tempora quisquam beatae molestiae veniam dolorem repellat architecto voluptatum autem perferendis, fuga totam.</p>
+          <h4 id="list-item-2">Item 2</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia optio maxime delectus consequatur minima voluptatum totam sunt ab illo minus obcaecati iste cum, qui veniam. Beatae perferendis at aliquid tenetur!</p>
+          <h4 id="list-item-3">Item 3</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis unde cupiditate a dolor veniam, accusantium maxime delectus qui maiores ex eius iusto illo provident officiis assumenda quia quis, itaque eligendi!</p>
+          <h4 id="list-item-4">Item 4</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam nulla magni dolorem accusamus quasi? Culpa minus sed fugiat aperiam voluptatum libero dolores explicabo at numquam earum, consequuntur expedita quasi ratione.</p>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-          </div>
-        </div>
+      </div> 
+        
         
     </article>  
 
@@ -147,8 +135,10 @@
     <!-- FOOTER -->
 
     <footer>
-        <img src="imagenes/dnrpa.png" alt="">
-        <h5>Ornella Di Lorenzo / Matrícula N° 885263</h5>
+      <div class="contenedor_dnrpa">
+          <img src="imagenes/dnrpa.png" alt="" class="dnrpa">
+      </div>
+      <h5>Ornella Di Lorenzo / Matrícula N° 885263</h5>
     </footer>
 
     <!-- JS BOOTSTRAP -->

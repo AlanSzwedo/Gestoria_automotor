@@ -1,6 +1,8 @@
 @import "base/variables";
 @import "inicio";
 @import "navbar";
+@import "contacto";
+@import "footer";
 
 *{
     margin: 0;
@@ -16,3 +18,4 @@ body {
     margin:0; 
     position:relative;
 }
+

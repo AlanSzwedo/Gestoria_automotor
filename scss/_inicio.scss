@@ -2,12 +2,14 @@
 /* PRESENTACIÓN */
 
 section{
+    
     .intro{
         display: flex;
-
-        .auto_principal{
+        
+        .escritorio_principal{
             height: 28rem;
         }
+        
         div{
             display: flex;
             flex-direction: column;
@@ -25,6 +27,7 @@ section{
 /* SERVICIOS */
 
 section{
+    
     h1{
         display: flex;
         justify-content: center;
@@ -40,5 +43,9 @@ article{
         display: flex;
         justify-content: center;
         padding: 4rem;
+    }
+    .consultas{
+        display: grid;
+        grid-template-columns: 25% 75%;
     }
 }

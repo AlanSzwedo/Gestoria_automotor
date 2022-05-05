@@ -1,0 +1,19 @@
+@import "base/variables";
+
+/* FOOTER */
+
+footer{
+    background-color: $color_footer;
+    display: flex;
+    flex-direction: row;
+    .contenedor_dnrpa{
+        background-color: white;
+        .dnrpa{
+            height: 4rem;
+        }
+    }
+    h5{
+        color: $color_letra;
+    }
+    
+}
