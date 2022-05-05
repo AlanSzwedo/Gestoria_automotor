@@ -1,0 +1,51 @@
+
+/* PRESENTACIÓN */
+
+section{
+    
+    .intro{
+        display: flex;
+        
+        .escritorio_principal{
+            height: 28rem;
+        }
+        
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: $color_principal;
+            color: $color_letra;
+            p{
+                padding: 3rem;
+            }
+        }
+    }
+}
+
+/* SERVICIOS */
+
+section{
+    
+    h1{
+        display: flex;
+        justify-content: center;
+        padding: 4rem;
+    }
+}
+
+
+/* CONSULTAS FRECUENTES */
+
+article{
+    h3{
+        display: flex;
+        justify-content: center;
+        padding: 4rem;
+    }
+    .consultas{
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+}

@@ -1,0 +1,19 @@
+$color_principal: rgba(155, 29, 7, 0.806);
+$color_letra: rgb(255, 255, 255);
+$color_footer: rgb(0, 64, 116);
+
+
+/* Boton whatsapp */
+aside {
+    .botonWhatsApp {
+        a{
+        img {
+        width: 70px;
+        position: fixed;
+        z-index: 4;
+        bottom: 10px;
+        right: 10px;
+        }
+        }
+    }
+}

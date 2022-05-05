@@ -1,0 +1,21 @@
+@import "base/variables";
+@import "inicio";
+@import "navbar";
+@import "contacto";
+@import "footer";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body {
+    width: 99vw;
+    overflow-x: hidden;
+    min-height:100vh; 
+    margin:0; 
+    position:relative;
+}
+

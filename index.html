@@ -4,13 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS FONTAWESOME -->
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
+
     <title>Inicio</title>
 </head>
 <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+             Gestoría del Automotor 
+          </a>
+          <i class="fa-brands fa-whatsapp">3548-5785469</i> 
+           Transferencia de Autos - Motos y más
+        </div>
+    </nav>
 
-    <h1>Subiendo repositorio</h1>
 
-    <img src="../BACKUP PROYECTO FINAL/Proyecto final/imagenes/cabina.jpg" alt="">
+    <!-- SUB NAVBAR -->
+    <nav class="nav nav-pills flex-column flex-sm-row nav_fijo">
+        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Inicio</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="pages/cotizacion.html">Cotizá tu trámite</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="pages/contacto.html">Contacto</a>
+    </nav>
+
+    <section>
+        <div class="intro">
+            <img src="imagenes/escritorio.jpg" alt="" class="escritorio_principal">
+            <div>
+                <h3>Gestoría integral del Automotor</h3>
+                <p>Gestoría para motos y autos. Te damos el mejor servicio y asesoramiento, en seguros y gestoria automotor.</p>
+            </div>
+        </div>  
+    </section>
+
+    <!-- SECTION -->
+    <section>
+        <h1>Nuestros Servicios</h1>
+
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                <i class="fa-solid fa-car fa-2x"></i>
+                  <h5 class="card-title">Patentamiento de 0 Km</h5>
+                  <p class="card-text">Inscripción Inicial de automotores, motovehiculos y maquinarias agrícolas. Iimplica la inscripción del bien a nombre de la persona física o jurídica que lo adquirió.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                <i class="fa-solid fa-motorcycle fa-2x"></i>
+                  <h5 class="card-title">Transferencia - Cambio de Titularidad</h5>
+                  <p class="card-text">Transferencias de vehículos inscriptos en cualquier punto del país. Y por sucesión y/o remates judiciales. Denuncia de compra para los adquirentes de autos y motos que tengan en su poder el vehículo, pero no cuenten con un formulario 08 .</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                <i class="fa-solid fa-file-lines fa-2x"></i>
+                  <h5 class="card-title">Patentes / Informes</h5>
+                  <p class="card-text">Le brindamos asesoramiento para la compra y venta del vehículo. Informes de deudas de patentes, Planes de pago, Deudas Judicializadas, Altas y Bajas de patentes en otras Jurisdicciones.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                <i class="fa-solid fa-address-card fa-2x"></i>
+                  <h5 class="card-title">Documentación del Automotor</h5>
+                  <p class="card-text">Cédula para autorizados a conducir (Cédula Azul). Duplicado de Cédula. Duplicado de Título. Reposición Placas metálicas. Placa de identificación provisoria</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+    <!-- CONSULTAS FRECUENTES -->
+    <article>
+        <h3>Consultas frecuentes</h3>
+
+      <div class="consultas">
+        <div id="list-example" class="list-group">
+          <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+        </div>
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+          <h4 id="list-item-1">Item 1</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, debitis? Optio, corrupti excepturi a cupiditate officia ullam tempora quisquam beatae molestiae veniam dolorem repellat architecto voluptatum autem perferendis, fuga totam.</p>
+          <h4 id="list-item-2">Item 2</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia optio maxime delectus consequatur minima voluptatum totam sunt ab illo minus obcaecati iste cum, qui veniam. Beatae perferendis at aliquid tenetur!</p>
+          <h4 id="list-item-3">Item 3</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis unde cupiditate a dolor veniam, accusantium maxime delectus qui maiores ex eius iusto illo provident officiis assumenda quia quis, itaque eligendi!</p>
+          <h4 id="list-item-4">Item 4</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam nulla magni dolorem accusamus quasi? Culpa minus sed fugiat aperiam voluptatum libero dolores explicabo at numquam earum, consequuntur expedita quasi ratione.</p>
+        </div>
+      </div> 
+        
+        
+    </article>  
+
+    <!-- BOTÓN WSP -->
+    <aside>
+        <div class="botonWhatsApp">
+          <a href="https://api.whatsapp.com/send?phone=+543512240495" target="_blank"><img src="imagenes/logoWhatsapp.png" alt="Link a WhatsApp"></a>
+        </div> 
+    </aside>  
+
     
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="contenedor_dnrpa">
+          <img src="imagenes/dnrpa.png" alt="" class="dnrpa">
+      </div>
+      <h5>Ornella Di Lorenzo / Matrícula N° 885263</h5>
+    </footer>
+
+    <!-- JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* Boton whatsapp */
+aside .botonWhatsApp a img {
+  width: 70px;
+  position: fixed;
+  z-index: 4;
+  bottom: 10px;
+  right: 10px; }
+
+/* PRESENTACIÓN */
+section .intro {
+  display: flex; }
+  section .intro .escritorio_principal {
+    height: 28rem; }
+  section .intro div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(155, 29, 7, 0.806);
+    color: white; }
+    section .intro div p {
+      padding: 3rem; }
+
+/* SERVICIOS */
+section h1 {
+  display: flex;
+  justify-content: center;
+  padding: 4rem; }
+
+/* CONSULTAS FRECUENTES */
+article h3 {
+  display: flex;
+  justify-content: center;
+  padding: 4rem; }
+
+article .consultas {
+  display: grid;
+  grid-template-columns: 25% 75%; }
+
+/* Boton whatsapp */
+aside .botonWhatsApp a img {
+  width: 70px;
+  position: fixed;
+  z-index: 4;
+  bottom: 10px;
+  right: 10px; }
+
+/* SUB NAVBAR */
+.nav_fijo {
+  z-index: 3; }
+
+/* FORMULARIO */
+section .formulario {
+  margin: 0;
+  padding: 3rem;
+  background-color: rgba(155, 29, 7, 0.806); }
+
+/* Boton whatsapp */
+aside .botonWhatsApp a img {
+  width: 70px;
+  position: fixed;
+  z-index: 4;
+  bottom: 10px;
+  right: 10px; }
+
+/* FOOTER */
+footer {
+  background-color: #004074;
+  display: flex;
+  flex-direction: row; }
+  footer .contenedor_dnrpa {
+    background-color: white; }
+    footer .contenedor_dnrpa .dnrpa {
+      height: 4rem; }
+  footer h5 {
+    color: white; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Body */
+body {
+  width: 99vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+  margin: 0;
+  position: relative; }
