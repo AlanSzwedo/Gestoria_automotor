@@ -1,8 +1,4 @@
-nombre_usuario();
-vehiculo ();
-anio_vehiculo ();
-tramite_realizar ();
-documentacion ();
+
 
 /* Clases */
 
@@ -145,6 +141,33 @@ while (confirmacion){
 
 }
 /* uso de funciones */
+
+nombre_usuario();
+vehiculo ();
+anio_vehiculo ();
+tramite_realizar ();
+documentacion ();
+
+let check = true ;
+
+while (check){
+        
+        let cliente = nombre_usuario();
+        let vehiculo = vehiculo();
+        let anio = anio_vehiculo();
+        let tramite = tramite_realizar();
+        let documentacion = documentacion();   
+        if (cliente && vehiculo && anio && tramite && documentacion){
+        
+            new Usuario (cliente, vehiculo, anio, tramite, documentacion);
+
+        }
+
+}
+
+
+
+
 
 
 
